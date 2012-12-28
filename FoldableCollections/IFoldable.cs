@@ -8,6 +8,7 @@ namespace FoldableCollections
 {
   public interface IFoldable<T>
   {
-    TResult Fold<TResult>(Func<TResult, T, TResult> reducer);
+    TResult Fold<TResult>(Func<TResult, T, TResult> reducer, TResult init);
+    TResult Fold<TResult>(Monoid<TResult, T> reducer);
   }
 }

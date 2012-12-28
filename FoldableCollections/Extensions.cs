@@ -10,7 +10,7 @@ namespace FoldableCollections
     {
       public static IFoldable<T> AsFoldable<T>(this IList<T> list)
       {
-        return new FoldableList<T>();
+        return new FoldableList<T>(list);
       }
     }
 }
