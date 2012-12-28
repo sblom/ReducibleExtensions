@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace FoldableCollections
+namespace ReducibleExtensions
 {
-  internal class FoldableList<T>: IFoldable<T>
+  internal class ReducibleList<T>: IReducible<T>
   {
     private IList<T> List { get; set; }
 
-    internal FoldableList(IList<T> list)
+    internal ReducibleList(IList<T> list)
     {
       this.List = list;
     }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoldableCollections", "FoldableCollections\FoldableCollections.csproj", "{25113A0F-E155-479C-8178-7F44DD307C98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReducibleExtensions", "ReducibleExtensions\ReducibleExtensions.csproj", "{25113A0F-E155-479C-8178-7F44DD307C98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoldableCollections.Test", "FoldableCollections.Test\FoldableCollections.Test.csproj", "{B5D437B0-9E88-4D15-AFC9-59BEE342D1AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReducibleExtensions.Test", "ReducibleExtensions.Test\ReducibleExtensions.Test.csproj", "{B5D437B0-9E88-4D15-AFC9-59BEE342D1AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{61F68EE9-D3F0-40F9-8114-2F566C6089D7}"
 	ProjectSection(SolutionItems) = preProject

@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System.Collections.Generic;
 using NUnit.Framework;
 
-using FoldableCollections;
-
-namespace FoldableCollections.Test
+namespace ReducibleExtensions.Test
 {
   [TestFixture]
   class Reductions
@@ -17,7 +10,7 @@ namespace FoldableCollections.Test
     public void SumListUsingReducer()
     {
       var list = new List<int> {1, 2, 3, 4, 5};
-      var result = list.AsFoldable().Fold((int a, int b) => a + b, 0);
+      var result = list.AsReducible().Fold((int a, int b) => a + b, 0);
       Assert.That(result, Is.EqualTo(15));
     }
 
@@ -26,7 +19,7 @@ namespace FoldableCollections.Test
     {
       var list = new List<int> {1, 2, 3, 4, 5};
       var monoid = new Monoid<int,int>((int a, int b) => a + b, 0);
-      var result = list.AsFoldable().Fold(monoid);
+      var result = list.AsReducible().Fold(monoid);
       Assert.That(result, Is.EqualTo(15));
     }
   }

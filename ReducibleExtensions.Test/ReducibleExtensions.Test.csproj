@@ -6,8 +6,8 @@
     <ProjectGuid>{B5D437B0-9E88-4D15-AFC9-59BEE342D1AA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FoldableCollections.Test</RootNamespace>
-    <AssemblyName>FoldableCollections.Test</AssemblyName>
+    <RootNamespace>ReducibleExtensions.Test</RootNamespace>
+    <AssemblyName>ReducibleExtensions.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -59,9 +59,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoldableCollections\FoldableCollections.csproj">
+    <ProjectReference Include="..\ReducibleExtensions\ReducibleExtensions.csproj">
       <Project>{25113a0f-e155-479c-8178-7f44dd307c98}</Project>
-      <Name>FoldableCollections</Name>
+      <Name>ReducibleExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
